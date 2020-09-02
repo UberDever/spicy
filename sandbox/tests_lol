@@ -1,0 +1,158 @@
+#if 0
+
+    float64** arr;
+    vec_new(arr, 3);
+    vec_new(arr[0], 3);
+    vec_new(arr[1], 3);
+    vec_new(arr[2], 3);
+    _vec_get_size(arr) = 3;
+    _vec_get_size(arr[0]) = 3;
+    _vec_get_size(arr[1]) = 3;
+    _vec_get_size(arr[2]) = 3;
+    for (uint i = 0; i < 9; i ++)
+        arr[i/3][i%3] = i+1;
+    vec_push(arr[0], -1);
+    vec_push(arr[1], -2);
+    vec_push(arr[2], -3);
+    vec_push(arr, arr[3]);
+    vec_new(arr[3], 3);
+    for (uint i = 0; i < 4; i++)
+        vec_push(arr[3], (int)i - 7);
+    //for (uint i = 0; i < _vec_get_size(arr) * 4; i++)
+    //    debug("%lf", arr[i/4][i%4]);
+    debug("%lf", vec_pop(arr[0]));
+    debug("%lf", vec_pop(arr[0]));
+    debug("%lf", vec_pop(arr[0]));
+    debug("%lf", vec_pop(arr[0]));
+    vec_free(arr[0]);
+    vec_free(arr[1]);
+    vec_free(arr[2]);
+    vec_free(arr);
+
+    typedef struct data {double a; int b;} data;
+    ht_bucket(data) ht_node;
+    ht_node* hash_table = NULL;
+    ht_node node;
+    ht_new(hash_table, 251);
+
+    const char* arr[] = {"abba", "beeba", "wobba", "debba", "cappa"};
+    struct data data_arr[] = { {.a = 10, 23}, {.a = 999, .b = 32}, {.a = 8, .b = 48}, {.a = 4, .b = 64}, {.a = 3, .b = 92}};
+    const uint n = ARR_ONE_DIM_LEN(arr);
+
+    for (uint i = 0; i < n; ++i) {
+        ht_add(hash_table, arr[i], data_arr[i]);
+    }
+    ht_delete(hash_table, "abba");
+    debug("size: %d", ht_delete(hash_table, "beeba"));
+    for (uint i = 0; i < n; i++)
+    {
+        ht_search(hash_table, arr[i]);
+        if (ht_is_found(hash_table))
+        {
+            debug("%s %lf %d", ht_get_found(hash_table).key, ht_get_found(hash_table).value.a, ht_get_found(hash_table).value.b);
+        } else debug("%s isn't found!", arr[i]);
+    }
+    ht_free(hash_table);
+
+    int* stack = NULL;
+    stack_new(stack, 10);
+    stack_push(stack, 1);
+    stack_push(stack, 2);
+    stack_push(stack, 4);
+    stack_push(stack, 8);
+    stack_push(stack, 16);
+    stack_push(stack, 32);
+    stack_push(stack, 64);
+    stack_push(stack, 128);
+    stack_push(stack, 256);
+    stack_push(stack, 512);
+    stack_push(stack, 1024);
+    debug("%d %d", stack_get_size(stack), stack_get_cap(stack));
+    uint size = stack_get_size(stack);
+    for (uint i = 0; i < size; i++)
+        debug("%d ", stack_pop(stack));
+
+    float** vec = NULL;
+    vec_new(vec, 10);
+    for (uint i = 0; i < 10; i++)
+    {
+        vec_push(vec, malloc(sizeof(float)));
+        *vec[i] = (i + 0.4f);
+        debug("%f", *vec[i]);
+    }
+    arr_delete_contents(vec, vec_get_cap(vec), vec_get_size(vec));
+    for (uint i = 0; i < 10; i++)
+    {
+        float* ptr = vec_pop(vec);
+    }
+
+    float32* deck = NULL;
+    deck_new(deck, 10);
+    for (uint i = 0; i < deck_get_cap(deck) / 2; i++)
+        deck_push_front(deck, i + (float)(i + 1) / 10);
+
+    for (uint i = 0; i < deck_get_cap(deck) / 2; i++)
+        deck_push_back(deck, i + (float)(i + 1) / 10);
+
+    deck_push_back(deck, 99);
+
+    debug("%d", deck_get_size(deck));
+    debug("%d", deck_is_empty(deck));
+    debug("%d", deck_is_full(deck));
+
+    debug("%f", deck_pop_front(deck));
+    debug("%f", deck_pop_front(deck));
+    debug("%f", deck_pop_back(deck));
+    debug("%f", deck_pop_back(deck));
+
+
+    float32* deck = NULL;
+    deck_new(deck, 10);
+
+    deck_push_front(deck, 10);
+    debug("%f", deck_pop_back(deck));
+
+    debug("%d", deck_get_size(deck));
+    debug("%d", deck_is_empty(deck));
+    debug("%d", deck_is_full(deck));
+
+    deck_free(deck);
+
+    int* queue = NULL;
+    queue_new(queue, 10);
+    for (uint i = 0; i < 10; i++)
+        queue_push(queue, i);
+    debug("%d", queue_is_full(queue));
+    for (uint i = 0; i < 10 + 1; i++)
+        debug("%d ", queue_pop(queue));
+    debug("%d", queue_is_empty(queue));
+    queue_free(queue);
+
+    typedef struct data {double a; int b;} data;
+    data** data_queue = NULL;
+    queue_new(data_queue, 5);
+    data* p = NULL;
+    p = malloc(sizeof(data));
+    *p = (data){.a = 4.5, .b = 2};
+    queue_push(data_queue, p);
+    p = malloc(sizeof(data));
+    *p = (data){.a = 5.8, .b = 23};
+    queue_push(data_queue, p);
+    p = malloc(sizeof(data));
+    *p = (data){.a = 14.5, .b = 42};
+    queue_push(data_queue, p);
+    p = malloc(sizeof(data));
+    *p = (data){.a = 4.56, .b = 32};
+    queue_push(data_queue, p);
+    p = malloc(sizeof(data));
+    *p = (data){.a = 45.5, .b = 82};
+    queue_push(data_queue, p);
+    for (uint i = 0; i < 10; i++)
+    {
+        if (queue_front(data_queue))
+        {
+            debug("%lf %d", queue_front(data_queue)->a, queue_front(data_queue)->b);
+            queue_pop(data_queue);
+        }
+    }
+#endif
