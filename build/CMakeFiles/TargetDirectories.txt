@@ -1,0 +1,3 @@
+/home/uberdever/dev/PRJS/spicy_renderer/build/CMakeFiles/rebuild_cache.dir
+/home/uberdever/dev/PRJS/spicy_renderer/build/CMakeFiles/edit_cache.dir
+/home/uberdever/dev/PRJS/spicy_renderer/build/CMakeFiles/spicy_renderer.dir

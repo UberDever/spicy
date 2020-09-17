@@ -141,7 +141,7 @@ void draw_flat_triangle(vx vx_top, vx vx_bottom, vx dvx0, vx dvx1, vx vx_start1)
             pi_v2_add(t, t0, t);
             if (!is_texture_bound)
             {
-                g_screen_put_pixel(x, y, /*(color){.a = c.a * 255, .r = c.r * 255, .g = c.g * 255, .b = c.b * 255}*/ COLOR(white));
+                g_screen_put_pixel(x, y, (color){.a = c.a * 255, .r = c.r * 255, .g = c.g * 255, .b = c.b * 255});
             }
             else
             {

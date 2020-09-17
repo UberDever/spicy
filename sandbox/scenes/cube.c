@@ -1,7 +1,7 @@
 //
 // Created by uberdever on 11.08.2020.
 //
-#if 1
+#if 0
 #include "../scene.h"
 
 static uint frames = 0;
@@ -24,11 +24,11 @@ void init(void) {
     {
         COLOR2FLOAT(arr[i], list.vert[i].c);
     }
-    texture.surf = IMG_Load("tnt_side.png");
+    texture.surf = IMG_Load("resources/tnt_side.png");
+        if (!texture.surf)
+        error("Can't load png texture");
     texture.size[0] = texture.surf->w / 1;
     texture.size[1] = texture.surf->h / 1;
-    if (!texture.surf)
-        error("Can't load png texture");
     pipeline_bind_texture(texture);
 }
 

@@ -17,7 +17,7 @@ static SDL_Surface* texture;
 
 void init(void) {
     color arr[] = {COLOR(red), COLOR(green), COLOR(blue)};
-    trianglelist_new(&list, 3);
+    trianglelist_new(&list, 3, 6);
     v3 vert[3] = {{-0.5, -0.5, 0}, {0.5, -0.5, 0}, {0, 0.5, 0}};
     uint ind[6] = {0, 2, 1, 1, 2, 0};
     v2 tex[3] = {{ 0, 0 }, { 1, 0 }, { 1, 1 }};
@@ -28,13 +28,13 @@ void init(void) {
     for (uint i = 0; i < ARR_ONE_DIM_LEN(arr); i++) {
         COLOR2FLOAT(arr[i], list.vert[i].c);
     }
-    for (uint i = 0; i < ARR_ONE_DIM_LEN(tex); i++)
-        pi_v2_copy(tex[i], list.vert[i].t);
+    //for (uint i = 0; i < ARR_ONE_DIM_LEN(tex); i++)
+    //    pi_v2_copy(tex[i], list.vert[i].t);
 
-    texture = IMG_Load("tnt.png");
-    if (!texture)
-        error("Can't load png texture");
-    pipeline_bind_texture(texture);
+    //texture = IMG_Load("resources/tnt.png");
+    //if (!texture)
+    //    error("Can't load png texture");
+    //pipeline_bind_texture(texture);
 }
 
 void begin_frame(void) {
