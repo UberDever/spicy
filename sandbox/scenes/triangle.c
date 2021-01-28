@@ -1,7 +1,7 @@
 //
 // Created by uberdever on 20.08.2020.
 //
-#if 0
+#if 1
 #include "../scene.h"
 
 static uint frames = 0;
@@ -146,6 +146,7 @@ void render_normal(const v3 v0, const v3 v1, const v3 v2, v3 normal)
 void render(void) {
 
     g_screen_draw_number(5, 5, frames, COLOR(yellow));
+    g_screen_fill((color){.r = 0, .g = 0, .b = 64, .a = 0});
     frames++;
     if (frames > 60) frames = 0;
 

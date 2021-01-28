@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "spicy_renderer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-spicy_renderer-Debug-ff7665c161c49250ea78.json",
+					"jsonFile" : "target-spicy_renderer-Debug-7259510f5ca73dc1c2cc.json",
 					"name" : "spicy_renderer",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/uberdever/dev/PRJS/spicy_renderer/build",
-		"source" : "/home/uberdever/dev/PRJS/spicy_renderer"
+		"build" : "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build",
+		"source" : "/home/uberdever/dev/4 sem/PRJS/spicy_renderer"
 	},
 	"version" : 
 	{

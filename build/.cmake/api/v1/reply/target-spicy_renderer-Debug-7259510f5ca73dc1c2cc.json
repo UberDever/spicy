@@ -52,11 +52,15 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/uberdever/dev/PRJS/spicy_renderer/src"
+					"path" : "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/uberdever/dev/PRJS/spicy_renderer/include"
+					"path" : "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/usr/local/include/SDL2"
 				},
 				{
 					"backtrace" : 2,
@@ -93,11 +97,15 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libSDL2main.a",
+				"fragment" : "-Wl,-rpath,/usr/local/lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libSDL2.so",
+				"fragment" : "/usr/local/lib/libSDL2main.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libSDL2.so",
 				"role" : "libraries"
 			},
 			{

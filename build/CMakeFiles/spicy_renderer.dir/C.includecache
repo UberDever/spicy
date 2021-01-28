@@ -82,31 +82,27 @@ SDL2/SDL_image.h
 alpha.h
 ../include/alpha.h
 
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/pipeline.h
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/pipeline.h
 alphabeta.h
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/alphabeta.h
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/alphabeta.h
 stuff/primitive_list.h
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/stuff/primitive_list.h
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/stuff/primitive_list.h
 stuff/ndc.h
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/stuff/ndc.h
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/stuff/ndc.h
 
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/scene.h
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/scene.h
 pipeline.h
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/pipeline.h
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/pipeline.h
 
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/scenes/cube.c
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/scenes/triangle.c
 ../scene.h
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/scene.h
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/scene.h
 
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/scenes/triangle.c
-../scene.h
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/scene.h
-
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/stuff/ndc.h
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/stuff/ndc.h
 alphabeta.h
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/stuff/alphabeta.h
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/stuff/alphabeta.h
 
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/stuff/primitive_list.h
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/stuff/primitive_list.h
 alphabeta.h
-/home/uberdever/dev/PRJS/spicy_renderer/sandbox/stuff/alphabeta.h
+/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/stuff/alphabeta.h
 

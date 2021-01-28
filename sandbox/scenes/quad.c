@@ -1,7 +1,7 @@
 //
 // Created by uberdever on 20.08.2020.
 //
-#if 1
+#if 0
 #include "../scene.h"
 
 static uint frames = 0;
@@ -35,7 +35,7 @@ void init(void) {
     for (uint i = 0; i < ARR_ONE_DIM_LEN(tex); i++)
         pi_v2_copy(tex[i], list.vert[i].t);
 
-    texture.surf = IMG_Load("resources/box_atlas.png");
+    texture.surf = IMG_Load("../resources/hiWall.png");
     if (!texture.surf)
         error("Can't load png texture");
     texture.size[0] = texture.surf->w / 1;

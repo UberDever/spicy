@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/uberdever/dev/PRJS/spicy_renderer/build"
+			"value" : "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,7 +155,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/x86_64-linux-gnu-g++-7"
+			"value" : "/usr/bin/g++-7"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -171,7 +171,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/x86_64-linux-gnu-gcc-7"
+			"value" : "/usr/bin/gcc-7"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/uberdever/dev/PRJS/spicy_renderer"
+			"value" : "/home/uberdever/dev/4 sem/PRJS/spicy_renderer"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1075,7 +1075,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2.so;-lpthread][/usr/include/SDL2][v()]"
+			"value" : "[/usr/local/lib/libSDL2main.a;/usr/local/lib/libSDL2.so;-lpthread][/usr/local/include/SDL2][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_SDL2_image",
@@ -1135,7 +1135,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/libSDL2main.a"
+			"value" : "/usr/local/lib/libSDL2main.a"
 		},
 		{
 			"name" : "SDL2_IMAGE_INCLUDE_DIR",
@@ -1179,7 +1179,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/include/SDL2"
+			"value" : "/usr/local/include/SDL2"
 		},
 		{
 			"name" : "SDL2_LIBRARY",
@@ -1191,7 +1191,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2.so;-lpthread"
+			"value" : "/usr/local/lib/libSDL2main.a;/usr/local/lib/libSDL2.so;-lpthread"
 		},
 		{
 			"name" : "SDL2_LIBRARY_TEMP",
@@ -1203,7 +1203,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2.so;-lpthread;-lpthread;-lpthread;-lpthread"
+			"value" : "/usr/local/lib/libSDL2main.a;/usr/local/lib/libSDL2main.a;/usr/local/lib/libSDL2main.a;/usr/local/lib/libSDL2main.a;/usr/local/lib/libSDL2.so;-lpthread;-lpthread;-lpthread;-lpthread"
 		},
 		{
 			"name" : "SDL2_MIXER_INCLUDE_DIR",
@@ -1271,7 +1271,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/uberdever/dev/PRJS/spicy_renderer/build"
+			"value" : "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build"
 		},
 		{
 			"name" : "spicy_renderer_SOURCE_DIR",
@@ -1283,7 +1283,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/uberdever/dev/PRJS/spicy_renderer"
+			"value" : "/home/uberdever/dev/4 sem/PRJS/spicy_renderer"
 		}
 	],
 	"kind" : "cache",

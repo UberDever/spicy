@@ -1,52 +1,52 @@
 [
 {
-  "directory": "/home/uberdever/dev/PRJS/spicy_renderer/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I/home/uberdever/dev/PRJS/spicy_renderer/src -I/home/uberdever/dev/PRJS/spicy_renderer/include -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/main.c.o   -c /home/uberdever/dev/PRJS/spicy_renderer/sandbox/main.c",
-  "file": "/home/uberdever/dev/PRJS/spicy_renderer/sandbox/main.c"
+  "directory": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build",
+  "command": "/usr/bin/gcc-7  -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src\" -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/include\" -I/usr/local/include/SDL2 -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/main.c.o   -c \"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/main.c\"",
+  "file": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/main.c"
 },
 {
-  "directory": "/home/uberdever/dev/PRJS/spicy_renderer/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I/home/uberdever/dev/PRJS/spicy_renderer/src -I/home/uberdever/dev/PRJS/spicy_renderer/include -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/src/alpha.c.o   -c /home/uberdever/dev/PRJS/spicy_renderer/src/alpha.c",
-  "file": "/home/uberdever/dev/PRJS/spicy_renderer/src/alpha.c"
+  "directory": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build",
+  "command": "/usr/bin/gcc-7  -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src\" -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/include\" -I/usr/local/include/SDL2 -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/src/alpha.c.o   -c \"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src/alpha.c\"",
+  "file": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src/alpha.c"
 },
 {
-  "directory": "/home/uberdever/dev/PRJS/spicy_renderer/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I/home/uberdever/dev/PRJS/spicy_renderer/src -I/home/uberdever/dev/PRJS/spicy_renderer/include -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/src/alphabeta.c.o   -c /home/uberdever/dev/PRJS/spicy_renderer/src/alphabeta.c",
-  "file": "/home/uberdever/dev/PRJS/spicy_renderer/src/alphabeta.c"
+  "directory": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build",
+  "command": "/usr/bin/gcc-7  -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src\" -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/include\" -I/usr/local/include/SDL2 -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/src/alphabeta.c.o   -c \"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src/alphabeta.c\"",
+  "file": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src/alphabeta.c"
 },
 {
-  "directory": "/home/uberdever/dev/PRJS/spicy_renderer/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I/home/uberdever/dev/PRJS/spicy_renderer/src -I/home/uberdever/dev/PRJS/spicy_renderer/include -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/src/gamma.c.o   -c /home/uberdever/dev/PRJS/spicy_renderer/src/gamma.c",
-  "file": "/home/uberdever/dev/PRJS/spicy_renderer/src/gamma.c"
+  "directory": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build",
+  "command": "/usr/bin/gcc-7  -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src\" -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/include\" -I/usr/local/include/SDL2 -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/src/gamma.c.o   -c \"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src/gamma.c\"",
+  "file": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src/gamma.c"
 },
 {
-  "directory": "/home/uberdever/dev/PRJS/spicy_renderer/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I/home/uberdever/dev/PRJS/spicy_renderer/src -I/home/uberdever/dev/PRJS/spicy_renderer/include -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/scenes/cube.c.o   -c /home/uberdever/dev/PRJS/spicy_renderer/sandbox/scenes/cube.c",
-  "file": "/home/uberdever/dev/PRJS/spicy_renderer/sandbox/scenes/cube.c"
+  "directory": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build",
+  "command": "/usr/bin/gcc-7  -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src\" -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/include\" -I/usr/local/include/SDL2 -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/scenes/cube.c.o   -c \"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/scenes/cube.c\"",
+  "file": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/scenes/cube.c"
 },
 {
-  "directory": "/home/uberdever/dev/PRJS/spicy_renderer/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I/home/uberdever/dev/PRJS/spicy_renderer/src -I/home/uberdever/dev/PRJS/spicy_renderer/include -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/src/gamma/alphabet.c.o   -c /home/uberdever/dev/PRJS/spicy_renderer/src/gamma/alphabet.c",
-  "file": "/home/uberdever/dev/PRJS/spicy_renderer/src/gamma/alphabet.c"
+  "directory": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build",
+  "command": "/usr/bin/gcc-7  -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src\" -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/include\" -I/usr/local/include/SDL2 -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/src/gamma/alphabet.c.o   -c \"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src/gamma/alphabet.c\"",
+  "file": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src/gamma/alphabet.c"
 },
 {
-  "directory": "/home/uberdever/dev/PRJS/spicy_renderer/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I/home/uberdever/dev/PRJS/spicy_renderer/src -I/home/uberdever/dev/PRJS/spicy_renderer/include -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/scenes/star.c.o   -c /home/uberdever/dev/PRJS/spicy_renderer/sandbox/scenes/star.c",
-  "file": "/home/uberdever/dev/PRJS/spicy_renderer/sandbox/scenes/star.c"
+  "directory": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build",
+  "command": "/usr/bin/gcc-7  -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src\" -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/include\" -I/usr/local/include/SDL2 -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/scenes/star.c.o   -c \"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/scenes/star.c\"",
+  "file": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/scenes/star.c"
 },
 {
-  "directory": "/home/uberdever/dev/PRJS/spicy_renderer/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I/home/uberdever/dev/PRJS/spicy_renderer/src -I/home/uberdever/dev/PRJS/spicy_renderer/include -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/scenes/triangle.c.o   -c /home/uberdever/dev/PRJS/spicy_renderer/sandbox/scenes/triangle.c",
-  "file": "/home/uberdever/dev/PRJS/spicy_renderer/sandbox/scenes/triangle.c"
+  "directory": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build",
+  "command": "/usr/bin/gcc-7  -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src\" -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/include\" -I/usr/local/include/SDL2 -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/scenes/triangle.c.o   -c \"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/scenes/triangle.c\"",
+  "file": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/scenes/triangle.c"
 },
 {
-  "directory": "/home/uberdever/dev/PRJS/spicy_renderer/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I/home/uberdever/dev/PRJS/spicy_renderer/src -I/home/uberdever/dev/PRJS/spicy_renderer/include -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/pipeline.c.o   -c /home/uberdever/dev/PRJS/spicy_renderer/sandbox/pipeline.c",
-  "file": "/home/uberdever/dev/PRJS/spicy_renderer/sandbox/pipeline.c"
+  "directory": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build",
+  "command": "/usr/bin/gcc-7  -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src\" -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/include\" -I/usr/local/include/SDL2 -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/pipeline.c.o   -c \"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/pipeline.c\"",
+  "file": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/pipeline.c"
 },
 {
-  "directory": "/home/uberdever/dev/PRJS/spicy_renderer/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I/home/uberdever/dev/PRJS/spicy_renderer/src -I/home/uberdever/dev/PRJS/spicy_renderer/include -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/scenes/quad.c.o   -c /home/uberdever/dev/PRJS/spicy_renderer/sandbox/scenes/quad.c",
-  "file": "/home/uberdever/dev/PRJS/spicy_renderer/sandbox/scenes/quad.c"
+  "directory": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/build",
+  "command": "/usr/bin/gcc-7  -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/src\" -I\"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/include\" -I/usr/local/include/SDL2 -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/spicy_renderer.dir/sandbox/scenes/quad.c.o   -c \"/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/scenes/quad.c\"",
+  "file": "/home/uberdever/dev/4 sem/PRJS/spicy_renderer/sandbox/scenes/quad.c"
 }
 ]
